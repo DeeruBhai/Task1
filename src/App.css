@@ -1,0 +1,27 @@
+.memes_display {
+  margin-top: 8px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.memes_display p {
+  font-weight: bolder;
+  color: rgb(4, 245, 225);
+}
+.topbar {
+  display: flex;
+  flex-direction: row;
+  font-size: x-large;
+  justify-content: space-around;
+  width: 100%;
+}
+.logout {
+  font-weight: bolder;
+  cursor: pointer;
+  color: rgb(241, 241, 248);
+}
+.logout:hover {
+  color: rgb(7, 7, 7);
+  background-color: aliceblue;
+  border-radius: 5px;
+}

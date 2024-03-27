@@ -1,0 +1,32 @@
+.login {
+  height: 100vh;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+  padding: 25px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 8px;
+  background-color: rgba(240, 248, 255, 0.5);
+}
+.input {
+  padding: 4px;
+  width: 200px;
+}
+.submit {
+  padding: 4px;
+  width: 200px;
+  background-color: blueviolet;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.submit:hover {
+  background-color: rgb(44, 41, 219);
+}
